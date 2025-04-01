@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ec4899, #f97316);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 60%;
+    max-width: 800px;
+    backdrop-filter: blur(10px); 
+}
+
+.form-section {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    background: rgba(236, 72, 153, 0.5); 
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.form-section h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.form-section label {
+    color: white;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2); 
+    color: white;
+}
+
+.form-section input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-section button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: none; 
+}
+
+.image-section img {
+    width: 70%;
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.2)); 
+}
